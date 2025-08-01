@@ -1,0 +1,16 @@
+# IBKR Stock Data Utility Requirements
+
+# Core IBKR API
+ib_async>=2.0.0
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Optional: For enhanced data analysis
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# For development/testing (optional)
+pytest>=7.0.0
+jupyter>=1.0.0
