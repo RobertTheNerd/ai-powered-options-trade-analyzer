@@ -5,6 +5,7 @@ from decimal import Decimal
 from tastytrade import Session, DXLinkStreamer
 from tastytrade.dxfeed import Quote
 from config_loader import get_tastytrade_credentials
+from tastytrade_data.constants import COMPANIES
 
 USERNAME, PASSWORD = get_tastytrade_credentials()
 
@@ -94,14 +95,13 @@ async def get_market_prices():
                 }
 
     # Organize by company
-    companies = ['NVDA', 'TSLA', 'AMZN', 'ISRG', 'PLTR', 'ENPH', 'XOM', 'DE', 'CAT']
     prices_by_company = {}
 
-    for company in companies:
+    for company in COMPANIES:
         prices_by_company[company] = []
 
     for symbol, price_data in market_prices.items():
-        for company in companies:
+        for company in COMPANIES:
             if company in symbol:
                 prices_by_company[company].append(price_data)
                 break

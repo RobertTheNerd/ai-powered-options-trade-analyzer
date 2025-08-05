@@ -1,13 +1,13 @@
 {
   "step": 2,
   "what_we_did": "Found all options contracts for each company",
-  "timestamp": "2025-08-01T11:26:25.024958",
+  "timestamp": "2025-08-01T12:12:28.098908",
   "companies_analyzed": 7,
   "total_contracts_found": 5544,
   "options_by_company": {
     "AMZN": {
       "company": "AMZN",
-      "current_stock_price": 213.935,
+      "current_stock_price": 214.735,
       "expiration_dates": {
         "2025-08-01": {
           "date": "2025-08-01",
@@ -3000,7 +3000,7 @@
     },
     "AMD": {
       "company": "AMD",
-      "current_stock_price": 170.82,
+      "current_stock_price": 171.005,
       "expiration_dates": {
         "2025-08-01": {
           "date": "2025-08-01",
@@ -8065,7 +8065,7 @@
     },
     "TSLA": {
       "company": "TSLA",
-      "current_stock_price": 302.86,
+      "current_stock_price": 302.115,
       "expiration_dates": {
         "2025-08-01": {
           "date": "2025-08-01",
@@ -15202,7 +15202,7 @@
     },
     "META": {
       "company": "META",
-      "current_stock_price": 747.365,
+      "current_stock_price": 746.57,
       "expiration_dates": {
         "2025-08-01": {
           "date": "2025-08-01",
@@ -25489,7 +25489,7 @@
     },
     "MSFT": {
       "company": "MSFT",
-      "current_stock_price": 524.08,
+      "current_stock_price": 524.39,
       "expiration_dates": {
         "2025-08-01": {
           "date": "2025-08-01",
@@ -31268,7 +31268,7 @@
     },
     "NVDA": {
       "company": "NVDA",
-      "current_stock_price": 173.035,
+      "current_stock_price": 173.355,
       "expiration_dates": {
         "2025-08-01": {
           "date": "2025-08-01",
@@ -36417,7 +36417,7 @@
     },
     "GOOG": {
       "company": "GOOG",
-      "current_stock_price": 189.74,
+      "current_stock_price": 189.665,
       "expiration_dates": {
         "2025-08-01": {
           "date": "2025-08-01",

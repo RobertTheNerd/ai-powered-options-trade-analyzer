@@ -7,19 +7,9 @@ from datetime import datetime
 from config_loader import get_tastytrade_credentials
 from tastytrade import DXLinkStreamer, Session
 from tastytrade.dxfeed import Quote
+from constants import COMPANIES
 
 USERNAME, PASSWORD = get_tastytrade_credentials()
-
-# Our 9 favorite companies to trade
-COMPANIES = [
-    "NVDA",  # NVIDIA (makes computer chips)
-    "TSLA",  # Tesla (electric cars)
-    "AMZN",  # Amazon (online shopping)
-    "AMD",  # Intuitive Surgical (robot surgery)
-    "GOOG",  # Palantir (data analysis)
-    "META",  # John Deere (farm equipment)
-    "MSFT",  # Caterpillar (construction equipment)
-]
 
 
 async def get_stock_prices():
